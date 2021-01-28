@@ -190,5 +190,119 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
+    line-height: 20px; 
+}
+
+
+.more {
+    color: #262D33;
+    text-decoration: none;
+    font-size: 14px;
     line-height: 20px;
+    font-weight: 900;
+    padding: 10px;
+
+}
+.section-title{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #262D33;
+}
+
+.goods-card {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.goods-card .label{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+
+.goods-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #262D33;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.goods-desctiption {
+    color: rgba(75, 81, 87, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.goods-price {
+    margin-top: 30px;
+    font-style: 18px;
+    line-height: 30px;
+    font-weight: 900;
+    color: #262D33;
+}
+
+.footer {
+    padding-top: 45px;
+    background: rgba(143, 121, 212, 1);
+    padding-bottom: 40px;
+    color: white;
+}
+
+.footer-text {
+    color: rgba(231, 217, 255, 1);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-menu-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.social-link {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.footer-line {
+    opacity: 0.5;
+}
+.top-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.top-link-text {
+    margin-top: 15px;
+}
+
+.payment-logo {
+    margin-right: 25px;
+    vertical-align: middle;
 }
