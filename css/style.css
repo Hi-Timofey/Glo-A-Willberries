@@ -310,3 +310,22 @@ body {
     margin-right: 25px;
     vertical-align: middle;
 }
+
+@media (max-width: 1200px) {
+    .slide-1 {
+        background-color: cover;
+    }
+}
+@media (max-width: 992px) {
+    .slider-nav {
+        display:none;
+    }
+}
+
+@media (max-width: 576px) {
+    .slide-title {
+        font-style: 36px;
+        line-height: 1.4;
+        margin: 0%;
+    }
+}
