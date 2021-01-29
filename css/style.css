@@ -56,6 +56,7 @@ body {
 .slide{
     padding-top: 90px;
     padding-bottom: 10px;
+    min-height: 568px;
 }
 .slide-1 {
     background: #B4D1E0 url(../img/slide-image-1.png) no-repeat top right 30%;
@@ -102,6 +103,7 @@ body {
 }
 
 .slider-nav {
+    z-index: 9;
     position: absolute;
     top: 50%;
     width: 100%;
