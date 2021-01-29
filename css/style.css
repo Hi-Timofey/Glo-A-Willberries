@@ -141,11 +141,13 @@ body {
     background: #CCD5E6 url(../img/cart-image-3.png) no-repeat top right 10%;
     background-size: contain;
     padding-top: 35px;
+    max-height: 370px;
 
 }
 .card-4 {
     padding-top: 35px;
-    padding-left: 25px;
+    padding-left: 46px;
+    max-height: 370px;
     background: #FF4F52 url(../img/cart-image-4.png) no-repeat top right;
     background-size: contain;
 }
@@ -315,6 +317,9 @@ body {
     .slide-1 {
         background-color: cover;
     }
+    .card-3 {
+        background-size: cover ;
+    }
 }
 @media (max-width: 992px) {
     .slider-nav {
@@ -328,4 +333,18 @@ body {
         line-height: 1.4;
         margin: 0%;
     }
+
+    .card {
+        background-position: left top;
+    }
+
+    .card-4 {
+        background-position: right top;
+    }
+
+    .card {
+        padding: 30px;
+        min-height: 300px;
+    }
+
 }
